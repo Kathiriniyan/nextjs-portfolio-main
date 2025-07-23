@@ -7,7 +7,7 @@ const ProjectCard = ({
 }) => {
   return (
     <div
-      className="group cursor-pointer rounded-2xl bg-[#181818]/70 shadow-xl overflow-hidden border border-white/10 hover:border-yellow-400/40 transition-all duration-500 hover:scale-105 w-[340px] h-[420px] flex flex-col"
+      className="group cursor-pointer rounded-2xl bg-[#181818]/70 shadow-xl overflow-hidden border border-white/10 hover:border-yellow-400/40 transition-all duration-500 hover:scale-105 w-full max-w-xs sm:max-w-sm md:max-w-[340px] h-[420px] flex flex-col"
     >
       <div
         className="h-52 md:h-56 rounded-t-2xl relative"

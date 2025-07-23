@@ -76,7 +76,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-yellow-400 placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5 focus:border-yellow-400 focus:ring-yellow-400"
-                placeholder="jacob@google.com"
+                placeholder="user@google.com"
               />
             </div>
             <div className="mb-6">
@@ -97,7 +97,7 @@ const EmailSection = () => {
                 id="message"
                 required
                 className="bg-[#18191E] border border-yellow-400 placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5 focus:border-yellow-400 focus:ring-yellow-400"
-                placeholder="Let's talk about..."
+                placeholder="Let's talk about tech..."
               />
             </div>
             <button
