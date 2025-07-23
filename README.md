@@ -1,30 +1,30 @@
-# Portfolio Website
+# Kathiriniyan's Portfolio Website
 
-This is a portfolio website built with Next.js and Tailwind CSS. It showcases your skills, projects, and achievements in an elegant and responsive design.
+Welcome to my personal portfolio website built with **Next.js** and **Tailwind CSS**!  
+This website showcases my experience, skills, projects, and achievements as a passionate Web and Mobile Developer.
 
-## Installation
+## 🚀 Features
 
-1. Clone the repository: `git clone https://github.com/judygab/nextjs-portfolio.git`
-2. Navigate to the project directory: `cd portfolio-website`
-3. Install the dependencies: `npm install`
+- **Modern Design**: Clean, glassy UI with smooth animations and a spotlight effect on the Hero section.
+- **Skills & About Sections**: Highlights my technical skills, educational background, and journey.
+- **Projects Gallery**: Interactive project cards with details, live preview, and GitHub links.
+- **Contact Form**: Direct message me with a fully functional contact form (powered by Formspree).
+- **Responsive**: Optimized for mobile, tablet, and desktop.
+- **Fast & Accessible**: SEO-friendly, blazing fast, and accessible for all users.
 
-## Usage
+## 🛠️ Tech Stack
 
-1. Start the development server: `npm run dev`
-2. Open your browser and visit `http://localhost:3000` to view the website.
+- **Next.js** (React Framework)
+- **Tailwind CSS** (utility-first CSS)
+- **React Icons** (beautiful icons)
+- **Framer Motion** (smooth animations)
+- **Formspree** (contact form email service)
+- **TypeAnimation** (for Hero section typing effect)
 
-## Dependencies
+## 📦 Installation
 
-The following dependencies are required for this project:
+1. **Clone this repo:**
+   ```bash
+   git clone https://github.com/Kathiriniyan/nextjs-portfolio.git
 
-- Next.js: A React framework for server-side rendering and static site generation.
-- Tailwind CSS: A highly customizable CSS framework.
-- React: A JavaScript library for building user interfaces.
-- React Icons: A collection of popular icons for React projects.
-- TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
-- Resend: Resend is the email API for developers.
-
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the terms of the license.
 
