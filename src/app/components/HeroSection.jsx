@@ -5,14 +5,15 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
-const SPOTLIGHT_RADIUS = 100; // px
+const SPOTLIGHT_RADIUS = 100; 
 
 const HeroSection = () => {
   const canvasRef = useRef(null);
   const sectionRef = useRef(null);
-  const [mouse, setMouse] = useState({ x: -9999, y: -9999 }); // Start off-canvas
+  const [mouse, setMouse] = useState({ x: -9999, y: -9999 }); 
 
-  // Canvas: Matrix rain effect
+  
+  
   useEffect(() => {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext("2d");
@@ -46,7 +47,7 @@ const HeroSection = () => {
     return () => clearInterval(interval);
   }, []);
 
-  // Mouse tracking for spotlight mask
+  
   useEffect(() => {
     const handleMouseMove = (e) => {
       if (!sectionRef.current) return;
@@ -66,7 +67,7 @@ const HeroSection = () => {
     };
   }, []);
 
-  // Create dynamic mask style
+  
   const maskStyle = {
     WebkitMaskImage: `radial-gradient(${SPOTLIGHT_RADIUS}px at ${mouse.x}px ${mouse.y}px, white 70%, transparent 100%)`,
     maskImage: `radial-gradient(${SPOTLIGHT_RADIUS}px at ${mouse.x}px ${mouse.y}px, white 70%, transparent 100%)`,
@@ -80,7 +81,7 @@ const HeroSection = () => {
       ref={sectionRef}
       style={{ background: "#121212" }}
     >
-      {/* Particle canvas with dynamic mask */}
+      
       <canvas
         ref={canvasRef}
         width={typeof window !== "undefined" ? window.innerWidth : 1920}
@@ -96,7 +97,7 @@ const HeroSection = () => {
       />
 
       <div className="grid grid-cols-1 sm:grid-cols-12 items-center relative z-10">
-        {/* Left Side */}
+        
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -142,7 +143,7 @@ const HeroSection = () => {
               Hire Me
             </a>
             <a
-              href="/cv.pdf"
+              href="/Kathiriniyan.pdf"
               className="px-1 py-1 rounded-md bg-gradient-to-br from-yellow-500 to-yellow-300 hover:bg-yellow-400 text-white"
             >
               <span className="block bg-[#121212] rounded-md px-5 py-2">
@@ -170,7 +171,7 @@ const HeroSection = () => {
           </div>
         </motion.div>
 
-        {/* Right Side */}
+        
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -178,7 +179,7 @@ const HeroSection = () => {
           className="col-span-4 mt-10 sm:mt-0 flex justify-center"
         >
           <div className="relative w-[250px] h-[250px] lg:w-[350px] lg:h-[350px] rounded-md overflow-hidden shadow-lg flex items-center justify-center">
-          {/* Glow background */}
+          
           <div className="absolute inset-0 z-0 rounded-md pointer-events-none"
             style={{
               background: "radial-gradient(circle, rgba(251,191,36,0.28) 0%, rgba(18,18,18,0.02) 70%)",

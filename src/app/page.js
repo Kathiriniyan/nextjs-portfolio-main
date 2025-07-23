@@ -13,13 +13,13 @@ export default function Home() {
     <main className="flex min-h-screen flex-col bg-[#121212]">
       <Navbar />
       <div className="container mt-24 mx-auto px-12 py-4">
-        <HeroSection />
+        <section id="home" className="scroll-mt-28"><HeroSection /></section>
         <AchievementsSection />
         <ServiceSection/>
-        <MySkills/>
-        <AboutSection />
-        <ProjectsSection />
-        <EmailSection />
+        <section id="skills" className="scroll-mt-18"><MySkills /></section>
+        <section id="about" className="scroll-mt-20"><AboutSection /></section>
+        <section id="projects" className="scroll-mt-20"><ProjectsSection /></section>
+        <section id="contact" className="scroll-mt-18"><EmailSection /></section>
       </div>
       <Footer />
     </main>

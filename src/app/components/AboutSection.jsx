@@ -24,7 +24,7 @@ const educations = [
 
 const AboutSection = () => {
   return (
-    <section className="py-10 px-2 sm:px-4 max-w-4xl mx-auto">
+    <section className="py-10 px-2 mt-20 sm:px-4 max-w-4xl mx-auto">
       <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-8 text-white text-center">
         My Education
       </h2>
