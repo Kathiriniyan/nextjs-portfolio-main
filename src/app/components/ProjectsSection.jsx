@@ -46,8 +46,19 @@ const projectsData = [
     image: "/images/projects/4.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Kathiriniyan/nextjs-portfolio-main.git",
-    previewUrl: "/",
+    previewUrl: "https://nextjs-portfolio-main-9ckc.vercel.app/",
     tech: ["Next.js", "TailwindCSS", "Framer Motion"]
+  },
+  {
+    id: 5,
+    title: "Event Booking Website",
+    description: "A Event booking web built in Next.js with animated sections, responsive design, and elegant glassmorphism.",
+    details: "Built with Next.js, Tailwind CSS, and Framer Motion for smooth animations. Features include a custom hero section, dynamic animation and projects,proper booking, responsive navbar, and theme toggling.",
+    image: "/images/projects/5.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://djsuguna.lk/",
+    previewUrl: "https://djsuguna.lk/",
+    tech: ["Next.js", "TailwindCSS", "Framer Motion","Gshap"]
   },
 ];
 
